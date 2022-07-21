@@ -92,7 +92,7 @@ public class AddUserPage extends BasePage{
     }
 
     public AddUserPage selectLanguage(String language){
-        dropDownHelper.selectUsingVisibleText(timeZoneSelect,language);
+        dropDownHelper.selectUsingVisibleText(languageSelect,language);
         return this;
     }
 

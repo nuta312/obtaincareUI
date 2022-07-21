@@ -47,6 +47,7 @@ public class Helper {
     }
 
     public String getText(WebElement element){
+        waitElementToBeDisplayed(element);
         return element.getText();
     }
 
