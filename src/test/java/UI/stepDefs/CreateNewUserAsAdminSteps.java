@@ -3,6 +3,7 @@ package UI.stepDefs;
 import UI.BaseUITest;
 import com.obtaincare.UI.dataProviders.ConfigReader;
 import com.obtaincare.UI.utils.Driver;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import static org.junit.jupiter.api.Assertions.*;
@@ -55,4 +56,8 @@ public class CreateNewUserAsAdminSteps extends BaseUITest {
     }
 
 
+    @And("Delete new created user")
+    public void deleteNewCreatedUser() {
+
+    }
 }

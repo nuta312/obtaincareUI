@@ -1,0 +1,12 @@
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/utils/Driver.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/pageObject/LoginPage.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/helperMethods/Helper.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/utils/EdgeWebDriver.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/pojo/User.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/utils/ChromeWebDriver.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/pageObject/HomePage.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/pageObject/AddUserPage.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/pageObject/BasePage.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/dataProviders/ConfigReader.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/utils/FireFoxWebDriver.java
+/Users/Esen/IdeaProjects/obtaincareUIWithFaker/src/main/java/com/obtaincare/UI/dataProviders/MockDataGenerator.java

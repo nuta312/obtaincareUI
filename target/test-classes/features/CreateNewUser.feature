@@ -13,6 +13,5 @@ Feature: Create new User as Admin
     And click Add new user button
     Then User successfully created with the following data
     |Elon|Musk|elon@gmail.com|elon |
-    And Delete new created user
 
 
