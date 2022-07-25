@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "UI/stepDefs",
-        tags = "@login",
+        tags = "@user",
         dryRun = false,
         monochrome = true,
         publish = true,
@@ -19,4 +19,5 @@ import org.junit.runner.RunWith;
         }
 )
 public class RunnerClass {
+
 }

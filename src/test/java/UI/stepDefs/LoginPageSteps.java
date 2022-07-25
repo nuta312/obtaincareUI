@@ -1,5 +1,6 @@
 package UI.stepDefs;
 
+import UI.BaseUITest;
 import com.obtaincare.UI.dataProviders.ConfigReader;
 import com.obtaincare.UI.pageObject.LoginPage;
 import com.obtaincare.UI.utils.Driver;
@@ -7,9 +8,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginPageSteps {
+public class LoginPageSteps extends BaseUITest {
 
-    LoginPage loginPage = new LoginPage();
+
 
     @Given("user is on login page")
     public void user_is_on_login_page() {

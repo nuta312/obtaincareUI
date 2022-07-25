@@ -44,5 +44,16 @@ public class Helper {
         return this;
     }
 
+    public Helper sendKeysWithClear(WebElement element,String str){
+        waitElementToBeDisplayed(element);
+        element.clear();
+        element.sendKeys(str);
+        return this;
+    }
+
+    public String getAttributeByValue(WebElement element){
+        waitElementToBeDisplayed(element);
+       return   element.getAttribute("value");
+    }
 
 }
