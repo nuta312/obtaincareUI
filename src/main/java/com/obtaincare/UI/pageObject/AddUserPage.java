@@ -64,4 +64,9 @@ public class AddUserPage extends BasePage {
         return this;
     }
 
+    public AddUserPage clickInfoTab(){
+        helper.click(infoTab);
+        return this;
+    }
+
 }
