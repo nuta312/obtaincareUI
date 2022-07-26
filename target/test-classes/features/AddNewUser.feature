@@ -6,7 +6,7 @@ Feature: Add new user
 #      | userName  | password    |
       | aidar3107 | Aidar548889 |
 
-  @addUser
+  @smoke
   Scenario: Add new user
     Then admin clicked on TalentlmsHome button
     When admin clicks on Add user button

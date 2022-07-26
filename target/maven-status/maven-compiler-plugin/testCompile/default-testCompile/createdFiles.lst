@@ -1,0 +1,11 @@
+UI/App.class
+UI/stepDefs/Hooks.class
+UI/stepDefs/AddUserSteps/UsersPageSteps.class
+UI/stepDefs/AddUserSteps/HomePageSteps.class
+UI/stepDefs/AddUserSteps/LoginAdminSteps.class
+UI/runner/RunnerClass.class
+UI/stepDefs/LoginPageSteps.class
+UI/BaseTest.class
+UI/stepDefs/AddUserSteps/InfoUserAssert.class
+UI/stepDefs/AddUserSteps/AddUserSteps.class
+UI/stepDefs/AddUserSteps/CoursesPageSteps.class
