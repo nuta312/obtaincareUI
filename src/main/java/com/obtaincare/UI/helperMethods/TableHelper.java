@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class TableHelper extends BaseHelper {
-
     public TableHelper allElementButtonsClick(By locator) {
         List<WebElement> iElements = Driver.getDriver().findElements(locator);
         for (WebElement iElement : iElements) {

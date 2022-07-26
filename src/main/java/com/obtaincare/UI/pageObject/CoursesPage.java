@@ -18,15 +18,15 @@ public class CoursesPage extends BasePage {
     public By addCourseButtonElement;
 
     @FindBy(xpath = "//a[@title='Users']")
-    public WebElement usersButtonElement;
+    public WebElement usersButtonHeaderElement;
     By addCourseButtonLocator = By.xpath("//i[@title='Enroll']");
 
     public String getTextToastElement() {
         return helper.getText(toastElement);
     }
 
-    public void clickUsersButton() {
-        helper.click(usersButtonElement);
+    public void clickUsersButtonHeader() {
+        helper.click(usersButtonHeaderElement);
     }
 
     public void clickAllAddCourseButtons() {

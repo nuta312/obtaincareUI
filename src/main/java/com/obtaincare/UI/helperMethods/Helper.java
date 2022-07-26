@@ -15,6 +15,9 @@ import java.util.concurrent.TimeUnit;
 public class Helper {
 
 
+    public String getAttribute(String attribute, WebElement element) {
+        return element.getAttribute(attribute);
+    }
 
     public Helper waitElementToBeClickable(WebElement element) {
         new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10))

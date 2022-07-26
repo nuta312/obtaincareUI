@@ -10,8 +10,6 @@ import java.util.List;
 public class UsersPageObject {
     String email;
     String userType;
-    List emailOrUsertype;
-
     @Override
     public String toString() {
         return "UsersPageObject{" +
@@ -19,11 +17,6 @@ public class UsersPageObject {
                 ", userType='" + userType + '\'' +
                 '}';
     }
-
-    public UsersPageObject(List emailOrUsertype) {
-        this.emailOrUsertype = emailOrUsertype;
-    }
-
     public UsersPageObject(String email, String userType) {
         this.email = email;
         this.userType = userType;

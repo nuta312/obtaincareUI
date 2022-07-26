@@ -15,14 +15,20 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "//div[@class='tl-title tl-ellipsis']")
     public WebElement homeText;
 
-    @FindBy(xpath = "(//a[@href='https://yrysbek.talentlms.com/user/create'])[2]")
+    @FindBy(xpath = "(//a[@href='https://aidar.talentlms.com/user/create'])[2]")
     public WebElement addUserButton;
 
+    @FindBy (xpath = "//a[@href='https://aidar.talentlms.com/dashboard']")
+    public WebElement talentlmsHomeButton;
 
     public String getHomeText(){
         return helper.getText(homeText);
     }
 
+    public HomePage clickTalentHomeButton() {
+        helper.click(talentlmsHomeButton);
+        return this;
+    }
     public HomePage clickAddUserButton(){
         helper.click(addUserButton);
         return this;
