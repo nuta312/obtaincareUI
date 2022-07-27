@@ -3,6 +3,7 @@ package UI.stepDefs.AddUserSteps;
 import UI.BaseTest;
 import com.obtaincare.UI.dataProviders.ConfigReader;
 import com.obtaincare.UI.utils.Driver;
+import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,6 +26,7 @@ public class AddUserSteps extends BaseTest {
             error.printStackTrace();
         }
     }
+    @DataTableType
 
     @When("admin fills input fields with following new user info:")
     public void admin_fills_input_fields_with_following_new_user_info(io.cucumber.datatable.DataTable dataTable) {
