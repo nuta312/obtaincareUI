@@ -4,7 +4,7 @@ Feature: Add new user
     Given on web talent
     Given login with following credentials as admin:
 #      | userName  | password    |
-      |  |  |
+      | aidar3107 | aidar548889 |
 
   @Smoke
   Scenario: Add new user
