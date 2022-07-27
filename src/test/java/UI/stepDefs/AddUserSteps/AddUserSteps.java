@@ -29,7 +29,12 @@ public class AddUserSteps extends BaseTest {
 
     @When("admin fills input fields with following new user info:")
     public void admin_fills_input_fields_with_following_new_user_info(io.cucumber.datatable.DataTable dataTable) {
-        addUserPage.addingUserProcess(0, dataTable);
+        for (int i = 0; i < dataTable.height() ; i++) {
+            addUserPage.addingUserProcess(i, dataTable);
+            coursesPage.clickAllAddCourseButtons();
+            helper.pause(1000);
+            navigateHelper.navigateBack();
+        }
         List<String> stringList = dataTable.row(0);
         userinfoStringMap.put(USERINFO.FIRSTNAME, stringList.get(0));
         userinfoStringMap.put(USERINFO.LASTNAME, stringList.get(1));

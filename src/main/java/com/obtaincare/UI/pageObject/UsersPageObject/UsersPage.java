@@ -20,6 +20,23 @@ public class UsersPage extends BasePage {
     By tdLocators = By.tagName("td");
     By divLocator = By.tagName("div");
     By iLocators = By.tagName("i");
+    By delLocators = By.xpath("//i[@alt='Delete']");
+    @FindBy(xpath = "(//i[@alt='Delete'])[1]")
+    public WebElement delElement;
+    @FindBy(xpath = "(//div[@class='tl-table-operations-trigger touchable'])[2]")
+    public WebElement delete;
+    @FindBy(xpath = "//a[@id='tl-confirm-submit']")
+    public WebElement deleteElement;
+    public void delUsers() {
+        List<WebElement> delElements = Driver.getDriver().findElements(delLocators);
+        for (WebElement delElement: delElements) {
+            jsExecutorHelper.click(delElement);
+            jsExecutorHelper.click(deleteElement);
+        }
+    }
+//    public void clickDelElement() {
+//        jsExecutorHelper.click(delElement);
+//    }
 
     public List<UsersPageObject> valueOfRowTables() {
         List<UsersPageObject> usersPageList = new ArrayList<>();
@@ -38,16 +55,16 @@ public class UsersPage extends BasePage {
         }
     }
 
-    public void delUsers() {
-        List<WebElement> trElements = Driver.getDriver().findElements(trLocators);
-        for (WebElement tr : trElements) {
-            List<WebElement> tdElements = tr.findElements(tdLocators);
-            WebElement divElement = tdElements.get(6).findElement(divLocator);
-            WebElement divInElement = divElement.findElement(divLocator);
-            List<WebElement> iElements = divInElement.findElements(iLocators);
-            jsExecutorHelper.click(iElements.get(3));
-        }
-    }
+//    public void delUsers() {
+//        List<WebElement> trElements = Driver.getDriver().findElements(trLocators);
+//        for (WebElement tr : trElements) {
+//            List<WebElement> tdElements = tr.findElements(tdLocators);
+//            WebElement divElement = tdElements.get(6).findElement(divLocator);
+//            WebElement divInElement = divElement.findElement(divLocator);
+//            List<WebElement> iElements = divInElement.findElements(iLocators);
+//            jsExecutorHelper.click(iElements.get(3));
+//        }
+//    }
 
 //    @FindBy(xpath = "//table[@id='tl-users-grid']")
 //    public WebElement tableOfUsers;

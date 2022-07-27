@@ -13,7 +13,10 @@ Feature: Add new user
     Then admin should see "Home / Users / Add user" page
     When admin fills input fields with following new user info:
 #      | firstName | lastName | email             | userName | password    | bio      | userType     | timeZone            | language |
-      | Nikita | Cherevko | cherevkoNikitos@gmail.com | cherevkoBTC | Bitcoin.1000 | BTC dump | Learner-Type | (GMT +06:00) Almaty | English |
+      | Aidar  | Askeev    | askeev771BTC@gmail.com  | aidar17ELONMUSK  | Bitcoin.1000 | BTC dump | Learner-Type | (GMT +06:00) Almaty | English |
+      | Nikita | Cherevko  | chervnik1ETH@gmail.com  | nikito1s7BITCOIN | Ether.2000   | ETH PUMP | Learner-Type | (GMT +06:00) Almaty | English |
+      | Aisana | Erlanova  | erlanovas1LTC@gmail.com | aisan1a7LITECOIN | Bitcoin.100  | ETH PUMP | Learner-Type | (GMT +06:00) Almaty | English |
+      | Asan   | Daniyarov | asa1nXRP@gmail.com      | asan7DO1GE       | asanDoge.100 | ETH PUMP | Learner-Type | (GMT +06:00) Almaty | English |
     Then user should see confirmation alert with text "Success! Do you want to add another user?"
     And admin clicked info button
     Then admin should see created user's userInfo

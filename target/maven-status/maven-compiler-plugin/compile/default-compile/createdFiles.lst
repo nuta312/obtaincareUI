@@ -11,8 +11,10 @@ com/obtaincare/UI/helperMethods/Helper.class
 com/obtaincare/UI/utils/SauceLabsDriver.class
 com/obtaincare/UI/pageObject/AddUserObject/InfoAssertPage.class
 com/obtaincare/App.class
+com/obtaincare/UI/helperMethods/NavigateHelper.class
 com/obtaincare/UI/utils/EdgeWebDriver.class
 com/obtaincare/UI/utils/FireFoxWebDriver.class
+com/obtaincare/UI/helperMethods/ActionsHelper.class
 com/obtaincare/UI/helperMethods/TableHelper.class
 com/obtaincare/UI/pojo/User.class
 com/obtaincare/UI/practice/SauceLabsDemo.class

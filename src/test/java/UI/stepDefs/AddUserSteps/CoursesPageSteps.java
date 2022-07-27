@@ -10,8 +10,7 @@ import org.opentest4j.AssertionFailedError;
 public class CoursesPageSteps extends BaseTest {
     @When("admin chooses all courses")
     public void admin_chooses_all_courses() throws InterruptedException {
-        coursesPage.clickAllAddCourseButtons();
-        helper.pause(2000);
+
     }
     @When("admin clicks Users button on header")
     public void admin_clicks_users_button_on_header() {

@@ -3,7 +3,7 @@ Feature: Delete All Users
   Background: Admin login in system
     Given on web talent
     Given login with following credentials as admin:
-      | aidar3107 | aidar548889  |
+      | aidar3107 | Aidar548889  |
 
     @DeleteUsers
     Scenario: Admin delete all users

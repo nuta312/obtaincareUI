@@ -1,6 +1,7 @@
 package UI;
 
 import com.obtaincare.UI.helperMethods.Helper;
+import com.obtaincare.UI.helperMethods.NavigateHelper;
 import com.obtaincare.UI.pageObject.AddUserObject.AddUserPage;
 import com.obtaincare.UI.pageObject.AddUserObject.PageObjects;
 import com.obtaincare.UI.pageObject.CoursesPage;
@@ -21,5 +22,6 @@ public class BaseTest implements PageObjects {
     public Helper helper = new Helper();
     public UsersPage usersPage = new UsersPage();
     public InfoAssertPage infoAssertPage = new InfoAssertPage();
+    public NavigateHelper navigateHelper = new NavigateHelper();
 
 }

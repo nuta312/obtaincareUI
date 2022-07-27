@@ -7,6 +7,7 @@ public class UsersPageSteps extends BaseTest {
     @Then("admin delete all user's userInfo")
     public void admin_delete_all_user_s_user_info() {
         usersPage.delUsers();
+        helper.pause(5000);
     }
 
     @Then("admin should see only SuperAdmin user")
