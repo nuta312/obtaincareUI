@@ -22,6 +22,7 @@ public class Driver {
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
+                    break;
                 case "firefox":
                     driver = FireFoxWebDriver.loadFireFoxDriver();
                     break;
@@ -29,12 +30,7 @@ public class Driver {
                     driver = EdgeWebDriver.loadEdgeDriver();
                     break;
                 default:
-                    try {
-                        driver = SauceLabsDriver.loadSauceLabs(ConfigReader.getProperty("platformName"), ConfigReader.getProperty("browserName"), ConfigReader.getProperty("browserVersion"));
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                        break;
-                    }
+                    driver = ChromeWebDriver.loadChromeDriver();
             }
         }
         return driver;

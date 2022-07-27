@@ -17,7 +17,6 @@ com/obtaincare/UI/helperMethods/TableHelper.class
 com/obtaincare/UI/pojo/User.class
 com/obtaincare/UI/practice/SauceLabsDemo.class
 com/obtaincare/UI/pageObject/UsersPageObject/UsersPageObject.class
-com/obtaincare/UI/pageObject/UsersPageObject/UsersPage$USER.class
 com/obtaincare/UI/pageObject/CoursesPage.class
 com/obtaincare/UI/pojo/LoginPagePojo.class
 com/obtaincare/UI/helperMethods/JsExecutorHelper.class

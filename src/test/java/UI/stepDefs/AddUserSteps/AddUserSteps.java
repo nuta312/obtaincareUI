@@ -15,7 +15,7 @@ import java.util.List;
 public class AddUserSteps extends BaseTest {
     @Given("on web talent")
     public void onWebTalent() {
-//        Driver.getDriver().get(ConfigReader.getProperty("environment"));
+        Driver.getDriver().get(ConfigReader.getProperty("environment"));
     }
 
     @Then("admin should see {string} page")
@@ -26,7 +26,6 @@ public class AddUserSteps extends BaseTest {
             error.printStackTrace();
         }
     }
-    @DataTableType
 
     @When("admin fills input fields with following new user info:")
     public void admin_fills_input_fields_with_following_new_user_info(io.cucumber.datatable.DataTable dataTable) {

@@ -1,11 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: UI.runner.RunnerClass
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.932 s <<< FAILURE! - in UI.runner.RunnerClass
-Add new user(Add new user)  Time elapsed: 15.996 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
-Build info: version: '4.1.1', revision: 'e8fcc2cecf'
-System info: host: 'Aidar', ip: 'fe80:0:0:0:4b0:7ed6:cb39:3d1d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_332'
-Driver info: driver.version: Driver
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 45.517 s <<< FAILURE! - in UI.runner.RunnerClass
+Admin delete all users(Delete All Users)  Time elapsed: 40.684 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 2
 

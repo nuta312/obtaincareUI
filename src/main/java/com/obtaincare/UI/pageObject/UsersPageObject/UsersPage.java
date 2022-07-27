@@ -1,5 +1,6 @@
 package com.obtaincare.UI.pageObject.UsersPageObject;
 
+import com.obtaincare.UI.pageObject.BasePage;
 import com.obtaincare.UI.pojo.User;
 import com.obtaincare.UI.utils.Driver;
 import org.openqa.selenium.By;
@@ -10,17 +11,16 @@ import org.w3c.dom.stylesheets.LinkStyle;
 
 import java.util.*;
 
-public class UsersPage {
+public class UsersPage extends BasePage {
     public UsersPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
     By trLocators = By.xpath("(//tbody)[2]/tr");
-    By tdEmailAndUserTypeLocators = By.xpath("//td[@class=' tl-align-left hidden-phone']");
     By tdLocators = By.tagName("td");
-    enum USER{
-        EMAIL(), USERTYPE()
-    }
+    By divLocator = By.tagName("div");
+    By iLocators = By.tagName("i");
+
     public List<UsersPageObject> valueOfRowTables() {
         List<UsersPageObject> usersPageList = new ArrayList<>();
         List<WebElement> trElements = Driver.getDriver().findElements(trLocators);
@@ -37,6 +37,18 @@ public class UsersPage {
             System.out.println(valueOfRowTables().get(i).toString());
         }
     }
+
+    public void delUsers() {
+        List<WebElement> trElements = Driver.getDriver().findElements(trLocators);
+        for (WebElement tr : trElements) {
+            List<WebElement> tdElements = tr.findElements(tdLocators);
+            WebElement divElement = tdElements.get(6).findElement(divLocator);
+            WebElement divInElement = divElement.findElement(divLocator);
+            List<WebElement> iElements = divInElement.findElements(iLocators);
+            jsExecutorHelper.click(iElements.get(3));
+        }
+    }
+
 //    @FindBy(xpath = "//table[@id='tl-users-grid']")
 //    public WebElement tableOfUsers;
 //

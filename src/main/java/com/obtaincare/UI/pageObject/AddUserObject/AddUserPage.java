@@ -105,15 +105,7 @@ public class AddUserPage extends BasePage implements PageObjects {
         return this;
     }
 
-//    private String generateRandomValue(String value){
-//        Faker faker = new Faker();
-//        faker.internet().emailAddress();
-//        return value;
-//    }
-
-
     public void addingUserProcess(int indexOfObject, DataTable dataTable) {
-
         List<String> userList = dataTable.row(indexOfObject);
         inputFirstName(userList.get(addUserMap().get(USERINFO.FIRSTNAME)))
                 .inputLastName(userList.get(addUserMap().get(USERINFO.LASTNAME)))
@@ -125,25 +117,5 @@ public class AddUserPage extends BasePage implements PageObjects {
                 .selectTimeZone(userList.get(addUserMap().get(USERINFO.TIMEZONE)))
                 .selectLanguage(userList.get(addUserMap().get(USERINFO.LANGUAGE)))
                 .clickAddUserButton();
-//        inputFirstName(mapOfUsers.get(USERINFO.FIRSTNAME))
-//                .inputLastName(mapOfUsers.get(USERINFO.LASTNAME))
-//                .inputEmail(mapOfUsers.get(USERINFO.EMAIL))
-//                .inputUserName(mapOfUsers.get(USERINFO.USERNAME))
-//                .inputPassword(mapOfUsers.get(USERINFO.PASSWORD))
-//                .inputBio(mapOfUsers.get(USERINFO.BIO))
-//                .selectUserType(mapOfUsers.get(USERINFO.USERTYPE))
-//                .selectTimeZone(mapOfUsers.get(USERINFO.TIMEZONE))
-//                .selectLanguage(mapOfUsers.get(USERINFO.LANGUAGE))
-//                .clickAddUserButton();
-//        inputFirstName(userList.get(0).getFirstName())
-//                .inputLastName(userList.get(0).getLastName())
-//                .inputEmail(userList.get(0).getEmail())
-//                .inputUserName(userList.get(0).getUserName())
-//                .inputPassword(userList.get(0).getPassword())
-//                .inputBio(userList.get(0).getBio())
-//                .selectUserType(userList.get(0).getUserType())
-//                .selectTimeZone(userList.get(0).getTimeZone())
-//                .selectLanguage(userList.get(0).getLanguage())
-//                .clickAddUserButton();
     }
 }

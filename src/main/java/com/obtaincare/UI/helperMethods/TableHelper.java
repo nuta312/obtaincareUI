@@ -1,6 +1,7 @@
 package com.obtaincare.UI.helperMethods;
 
 import com.obtaincare.UI.utils.Driver;
+import javafx.scene.control.Tab;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -16,4 +17,5 @@ public class TableHelper extends BaseHelper {
         }
         return this;
     }
+
 }
