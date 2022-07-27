@@ -14,7 +14,7 @@ import java.util.List;
 public class AddUserSteps extends BaseTest {
     @Given("on web talent")
     public void onWebTalent() {
-        Driver.getDriver().get(ConfigReader.getProperty("environment"));
+//        Driver.getDriver().get(ConfigReader.getProperty("environment"));
     }
 
     @Then("admin should see {string} page")

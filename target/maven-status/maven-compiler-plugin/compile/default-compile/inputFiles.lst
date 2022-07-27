@@ -4,6 +4,7 @@
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/AddUserObject/AddUserPage.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/UsersPageObject/UsersPage.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/utils/Driver.java
+/Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/practice/SauceLabsDemo.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/BasePage.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/LoginPage.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/helperMethods/DropDownHelper.java
@@ -19,4 +20,5 @@
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/AddUserObject/PageObjects.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/helperMethods/BaseHelper.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/CoursesPage.java
+/Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/utils/SauceLabsDriver.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pojo/User.java

@@ -8,12 +8,14 @@ com/obtaincare/UI/pageObject/AddUserObject/PageObjects$USERINFO.class
 com/obtaincare/UI/helperMethods/BaseHelper.class
 com/obtaincare/UI/pageObject/AddUserObject/AddUserPage.class
 com/obtaincare/UI/helperMethods/Helper.class
+com/obtaincare/UI/utils/SauceLabsDriver.class
 com/obtaincare/UI/pageObject/AddUserObject/InfoAssertPage.class
 com/obtaincare/App.class
 com/obtaincare/UI/utils/EdgeWebDriver.class
 com/obtaincare/UI/utils/FireFoxWebDriver.class
 com/obtaincare/UI/helperMethods/TableHelper.class
 com/obtaincare/UI/pojo/User.class
+com/obtaincare/UI/practice/SauceLabsDemo.class
 com/obtaincare/UI/pageObject/UsersPageObject/UsersPageObject.class
 com/obtaincare/UI/pageObject/UsersPageObject/UsersPage$USER.class
 com/obtaincare/UI/pageObject/CoursesPage.class

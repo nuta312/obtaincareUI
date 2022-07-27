@@ -3,6 +3,8 @@ package com.obtaincare.UI.utils;
 import com.obtaincare.UI.dataProviders.ConfigReader;
 import org.openqa.selenium.WebDriver;
 
+import java.net.MalformedURLException;
+
 public class Driver {
 
     private Driver() {
@@ -11,10 +13,15 @@ public class Driver {
 
     public static WebDriver driver;
 
-    public static WebDriver getDriver(){
-        if(driver == null){
-            switch (ConfigReader.getProperty("browser").toLowerCase()){
-
+    public static WebDriver getDriver() {
+        if (driver == null) {
+            switch (ConfigReader.getProperty("browser").toLowerCase()) {
+                case "saucelab":
+                    try {
+                        driver = SauceLabsDriver.loadSauceLabs(ConfigReader.getProperty("platformName"), ConfigReader.getProperty("browserName"), ConfigReader.getProperty("browserVersion"));
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                    }
                 case "firefox":
                     driver = FireFoxWebDriver.loadFireFoxDriver();
                     break;
@@ -22,24 +29,27 @@ public class Driver {
                     driver = EdgeWebDriver.loadEdgeDriver();
                     break;
                 default:
-                    driver = ChromeWebDriver.loadChromeDriver();
-                    break;
+                    try {
+                        driver = SauceLabsDriver.loadSauceLabs(ConfigReader.getProperty("platformName"), ConfigReader.getProperty("browserName"), ConfigReader.getProperty("browserVersion"));
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                        break;
+                    }
             }
         }
         return driver;
     }
 
-    public static void closeDriver(){
+    public static void closeDriver() {
         try {
-            if(driver!=null){
+            if (driver != null) {
                 driver.close();
                 driver.quit();
                 driver = null;
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 }
+
