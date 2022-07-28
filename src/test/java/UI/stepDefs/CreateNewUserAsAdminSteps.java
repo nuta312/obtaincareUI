@@ -3,6 +3,7 @@ package UI.stepDefs;
 import UI.BaseUITest;
 import com.obtaincare.UI.dataProviders.ConfigReader;
 import com.obtaincare.UI.utils.Driver;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import static org.junit.jupiter.api.Assertions.*;
@@ -53,6 +54,7 @@ public class CreateNewUserAsAdminSteps extends BaseUITest {
         assertEquals(expectedLastName,helper.getAttributeByValue(addUserPage.lastNameInput));
         assertEquals(expectedEmail,helper.getAttributeByValue(addUserPage.emailAddressInput));
     }
+
 
 
 }

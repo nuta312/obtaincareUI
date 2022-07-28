@@ -1,4 +1,4 @@
-@user
+@smoke
 Feature: Create new User as Admin
 
   Background: Sign in As Admin

@@ -4,7 +4,7 @@ Feature: Login page
     Given user is on login page
 
 
-    @login
+    @smoke
     Scenario: Verify user can login to System with valid credentials
       When user type "nuta" in username input field
       And user type "HelloWorld312!" in password input field

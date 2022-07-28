@@ -3,7 +3,7 @@ Feature: Test POJO
   Background: Sign in As Admin
     Given user is on Home page
 
-  @pojo
+  @smoke
   Scenario: Create new User as Admin positive
     Given click on add new User button
     And create new user with following dataa

@@ -1,0 +1,7 @@
+[INFO ] 2022-07-27 20:18:24.044 [main] Helper - Writing the nuta to [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='login']]
+[INFO ] 2022-07-27 20:18:24.056 [main] Helper - Waiting to Element to be displayed [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='login']]
+[INFO ] 2022-07-27 20:18:24.132 [main] Helper - Writing the HelloWorld312! to [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='password']]
+[INFO ] 2022-07-27 20:18:24.136 [main] Helper - Waiting to Element to be displayed [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='password']]
+[INFO ] 2022-07-27 20:18:24.202 [main] Helper - Clicking the element [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='submit']]
+[INFO ] 2022-07-27 20:18:24.207 [main] Helper - Waiting to Element to be displayed [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='submit']]
+[INFO ] 2022-07-27 20:18:24.230 [main] Helper - Waiting to Element to be clickable [[ChromeDriver: chrome on WINDOWS (53a95bd5161279b90da4bf53685a4b13)] -> xpath: //input[@name='submit']]
