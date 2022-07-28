@@ -20,8 +20,8 @@ public class CreateNewUserAsAdminSteps extends BaseUITest {
     @Given("user is on Home page")
     public void user_is_on_home_page() {
         Driver.getDriver().get(ConfigReader.getProperty("environment"));
-        loginPage.inputUserName("nuta");
-        loginPage.inputPassword("HelloWorld312!");
+        loginPage.inputUserName("Ezan23");
+        loginPage.inputPassword("Ezan200054451013@");
         loginPage.clickLoginButton();
     }
 
@@ -58,6 +58,7 @@ public class CreateNewUserAsAdminSteps extends BaseUITest {
 
     @And("Delete new created user")
     public void deleteNewCreatedUser() {
+
 
     }
 }

@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends BasePage{
 
-    @FindBy(xpath = "(//a[@href='https://nuta123.talentlms.com/user/create'])[2]")
+    @FindBy(xpath = "(//a [@href='https://esen237.talentlms.com/user/create'])[2]")
     public WebElement addUserButton;
 
     public HomePage clickAddUserButton(){
