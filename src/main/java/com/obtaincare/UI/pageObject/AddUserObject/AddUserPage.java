@@ -1,16 +1,20 @@
 package com.obtaincare.UI.pageObject.AddUserObject;
 
 import com.github.javafaker.Faker;
+import com.obtaincare.UI.LoggerPage;
 import com.obtaincare.UI.pageObject.BasePage;
 import com.obtaincare.UI.utils.Driver;
 import io.cucumber.datatable.DataTable;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
-public class AddUserPage extends BasePage implements PageObjects {
+public class AddUserPage extends BasePage implements PageObjects, LoggerPage {
 
 
     public AddUserPage() {
@@ -52,11 +56,17 @@ public class AddUserPage extends BasePage implements PageObjects {
 
 
     public String getAddUserTexElement() {
+        getLogger().info("Getting text with helper class");
         return helper.getText(addUserTexElement);
     }
 
     public AddUserPage inputFirstName(String userFirstName) {
-        helper.sendKeys(firstNameElement, userFirstName);
+        try {
+            helper.sendKeys(firstNameElement, userFirstName);
+        } catch (NoSuchElementException e) {
+            getLogger().error(e);
+            e.printStackTrace();
+        }
         return this;
     }
 

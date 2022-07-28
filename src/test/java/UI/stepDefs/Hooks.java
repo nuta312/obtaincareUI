@@ -8,6 +8,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
 
+import java.util.List;
+
 public class Hooks {
     @Before
     public void setUp(){
@@ -25,5 +27,8 @@ public class Hooks {
             }
         }
         Driver.closeDriver();
+    }
+    @After(order = 2)
+    public void delUsers(Scenario scenario){
     }
 }

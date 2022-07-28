@@ -6,9 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-
     private static Properties properties;
-
     static {
         try{
             String patch = "src/main/resources/configuration.properties";
@@ -20,7 +18,6 @@ public class ConfigReader {
             e.printStackTrace();
         }
     }
-
     public static String getProperty(String key){
         return properties.getProperty(key).trim();
     }
