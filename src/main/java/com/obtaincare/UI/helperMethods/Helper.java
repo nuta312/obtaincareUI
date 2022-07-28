@@ -70,6 +70,8 @@ public class Helper implements LoggerPage {
         getLogger().info("Get text from element " + element);
         return element.getText();
     }
-
-
+    public void clickNewTab(WebElement element) {
+        String clickNewTab = Keys.chord(Keys.COMMAND,Keys.ENTER);
+        sendKeys(element,clickNewTab);
+    }
 }

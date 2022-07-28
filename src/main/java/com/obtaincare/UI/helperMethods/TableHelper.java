@@ -17,5 +17,4 @@ public class TableHelper extends BaseHelper {
         }
         return this;
     }
-
 }

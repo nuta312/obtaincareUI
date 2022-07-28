@@ -12,4 +12,5 @@ public class BasePage {
     public JsExecutorHelper jsExecutorHelper = new JsExecutorHelper();
     public ActionsHelper actionsHelper = new ActionsHelper();
 
+
 }

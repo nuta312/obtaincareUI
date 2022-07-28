@@ -13,7 +13,6 @@ public class HomePage extends BasePage {
     public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
     @FindBy(xpath = "(//a[@href = 'https://aidar.talentlms.com/user/index/gridPref:reset'])[2]")
     public WebElement userButton;
     @FindBy(xpath = "//div[@class='tl-title tl-ellipsis']")
@@ -23,6 +22,9 @@ public class HomePage extends BasePage {
     public WebElement addUserButton;
     @FindBy(xpath = "//a[@href='https://aidar.talentlms.com/dashboard']")
     public WebElement talentlmsHomeButton;
+
+    @FindBy(xpath = "//ul[@class='nav pull-right']/li")
+    public WebElement headersElements;
 
     public String getHomeText() {
         return helper.getText(homeText);
@@ -40,5 +42,8 @@ public class HomePage extends BasePage {
     public HomePage clickUserButton() {
         helper.click(userButton);
         return this;
+    }
+    public void clickHeaders() {
+
     }
 }

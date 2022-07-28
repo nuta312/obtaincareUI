@@ -1,6 +1,7 @@
 package UI.stepDefs.DellUsersSteps;
 
 import UI.BaseTest;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
 public class UsersPageSteps extends BaseTest {
@@ -14,4 +15,5 @@ public class UsersPageSteps extends BaseTest {
     public void admin_should_see_only_super_admin_user() {
 
     }
+
 }
