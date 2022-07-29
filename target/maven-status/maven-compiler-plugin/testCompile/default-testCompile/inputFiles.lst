@@ -3,6 +3,7 @@
 /Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/runner/RunnerClass.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/BaseTest.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/stepDefs/Hooks.java
+/Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/stepDefs/navigatePullTestSteps/NavigatePullTests.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/stepDefs/DellUsersSteps/UsersPageSteps.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/stepDefs/AddUserSteps/LoginAdminSteps.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/test/java/UI/App.java

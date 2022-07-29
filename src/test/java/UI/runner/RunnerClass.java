@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "UI/stepDefs",
         tags = "@Smoke",
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         publish = true,
         plugin = {

@@ -1,4 +1,4 @@
-Feature: Home page Header Test
+Feature: Home page Navigate Pull Test
 
   Background: Admin log in system
     Given on web talent

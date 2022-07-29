@@ -9,5 +9,6 @@ UI/stepDefs/LoginPageSteps.class
 UI/BaseTest.class
 UI/stepDefs/AddUserSteps/InfoUserAssert.class
 UI/stepDefs/DellUsersSteps/UsersPageSteps.class
+UI/stepDefs/navigatePullTestSteps/NavigatePullTests.class
 UI/stepDefs/AddUserSteps/AddUserSteps.class
 UI/stepDefs/AddUserSteps/CoursesPageSteps.class
