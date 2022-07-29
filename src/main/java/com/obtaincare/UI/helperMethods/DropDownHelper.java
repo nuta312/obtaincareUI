@@ -1,8 +1,6 @@
 package com.obtaincare.UI.helperMethods;
 
-import com.obtaincare.UI.LoggerPage;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.obtaincare.UI.loggerPage.LoggerPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 

@@ -1,8 +1,7 @@
 package com.obtaincare.UI.helperMethods;
 
-import com.obtaincare.UI.LoggerPage;
+import com.obtaincare.UI.loggerPage.LoggerPage;
 
-import com.obtaincare.UI.pageObject.BasePage;
 import com.obtaincare.UI.utils.Driver;
 import org.openqa.selenium.Keys;
 

@@ -1,4 +1,4 @@
-package com.obtaincare.UI;
+package com.obtaincare.UI.loggerPage;
 
 import lombok.extern.java.Log;
 import org.apache.logging.log4j.LogManager;

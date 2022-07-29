@@ -1,12 +1,9 @@
 package com.obtaincare.UI.pageObject.AddUserObject;
 
-import com.github.javafaker.Faker;
-import com.obtaincare.UI.LoggerPage;
+import com.obtaincare.UI.loggerPage.LoggerPage;
 import com.obtaincare.UI.pageObject.BasePage;
 import com.obtaincare.UI.utils.Driver;
 import io.cucumber.datatable.DataTable;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
