@@ -28,7 +28,4 @@ public class Hooks {
         }
         Driver.closeDriver();
     }
-    @After(order = 2)
-    public void delUsers(Scenario scenario){
-    }
 }
