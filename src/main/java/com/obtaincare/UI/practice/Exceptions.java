@@ -5,10 +5,9 @@ import com.obtaincare.UI.helperMethods.DropDownHelper;
 import com.obtaincare.UI.pageObject.HomePage;
 import com.obtaincare.UI.pageObject.LoginPage;
 import com.obtaincare.UI.utils.Driver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.ElementNotInteractableException;
-import org.openqa.selenium.ElementNotSelectableException;
-import org.openqa.selenium.WebDriver;
+import org.apache.logging.log4j.core.appender.rolling.action.Action;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.NoSuchElementException;
 
@@ -36,6 +35,7 @@ public class Exceptions {
         }catch (ElementNotSelectableException e){
             e.printStackTrace();
         }
+
 
         try {
             driver.findElement(By.xpath("//select[@name=\"acl_user_type_i\"]")).click();
