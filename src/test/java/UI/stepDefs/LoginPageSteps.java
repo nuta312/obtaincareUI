@@ -7,6 +7,7 @@ import com.obtaincare.UI.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.jupiter.api.Test;
 
 public class LoginPageSteps extends BaseUITest {
 
@@ -32,4 +33,6 @@ public class LoginPageSteps extends BaseUITest {
     public void user_should_successfully_land_to_home_page() {
 
     }
+
+
 }
