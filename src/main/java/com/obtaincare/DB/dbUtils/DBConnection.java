@@ -51,21 +51,16 @@ public class DBConnection {
     }
 
 
-
     public static List<Map<String, Object>> queryToList(String query) throws SQLException {
         try (ResultSet rs = query(query)) {
             List<Map<String, Object>> result = new ArrayList<>();
             List<String> columns = getColumns(rs.getMetaData());
-
             while (rs.next()) {
                 result.add(rowToMap(rs, columns));
             }
-
             return result;
         }
-
     }
-
 
     public static void close() {
         try {
@@ -104,6 +99,7 @@ public class DBConnection {
     }
 
     private static List<String> getColumns(ResultSetMetaData metaData) throws SQLException {
+
         int num_of_columns = metaData.getColumnCount();
         List<String> headers = new ArrayList<>();
 

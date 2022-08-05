@@ -27,7 +27,6 @@ public class EmployeeBean {
     private String jobTitle;
 
 
-
     public EmployeeBean() {
     }
 
@@ -45,8 +44,6 @@ public class EmployeeBean {
     public EmployeeBean(ResultSet rs) throws SQLException {
         new BeanProcessor().populateBean(rs, this);
     }
-
-
 
     public static List<EmployeeBean> getAll() throws SQLException {
         String query = "SELECT * FROM employees";
