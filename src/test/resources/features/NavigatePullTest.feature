@@ -7,7 +7,8 @@ Feature: Home page Navigate Pull Test
 
   @Regression
   Scenario: Testing all header's elements
-    Given admin on home page
+    Then admin clicked on TalentlmsHome button
+#    Given admin on home page
     And admin should see "A. Aidar Administrator" header
     Then admin open two new tab, where appears home page with Instructor and Learner roles
     And admin switch to second tab and should see "A. Aidar Instructor" text on header and close this tab

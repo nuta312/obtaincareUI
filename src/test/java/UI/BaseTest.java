@@ -8,7 +8,10 @@ import com.obtaincare.UI.pageObject.CoursesPage;
 import com.obtaincare.UI.pageObject.HomePage;
 import com.obtaincare.UI.pageObject.AddUserObject.InfoAssertPage;
 import com.obtaincare.UI.pageObject.LoginPage;
+import com.obtaincare.UI.pageObject.NavigatePullPage.FirstDropDownMenu;
 import com.obtaincare.UI.pageObject.UsersPageObject.UsersPage;
+import com.obtaincare.UI.utils.Driver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,5 +26,6 @@ public class BaseTest implements PageObjects {
     public UsersPage usersPage = new UsersPage();
     public InfoAssertPage infoAssertPage = new InfoAssertPage();
     public NavigateHelper navigateHelper = new NavigateHelper();
+    public FirstDropDownMenu firstDropDownMenu = new FirstDropDownMenu();
 
 }

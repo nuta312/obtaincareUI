@@ -7,6 +7,7 @@
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/utils/ChromeWebDriver.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/practice/Exceptions.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/helperMethods/ActionsHelper.java
+/Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/practice/SoftAssert.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/helperMethods/Helper.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/AddUserObject/PageObjects.java
 /Users/vasya/IdeaProjects/obtaincarUI/src/main/java/com/obtaincare/UI/pageObject/CoursesPage.java

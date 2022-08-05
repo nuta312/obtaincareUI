@@ -26,6 +26,9 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//ul[@class='nav pull-right']/li")
     public WebElement headersElements;
 
+    public void openInNewTabAddUserButton(){
+        tabHelper.openInNewTab(addUserButton);
+    }
     public String getHomeText() {
         return helper.getText(homeText);
     }

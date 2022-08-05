@@ -8,11 +8,16 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
 
+import java.lang.management.ManagementFactory;
 import java.util.List;
 
 public class Hooks {
     @Before
     public void setUp(){
+        long threadId = Thread.currentThread().getId();
+        String processName = ManagementFactory.getRuntimeMXBean().getName();
+        System.out.println("Started in thread: " + threadId + ", in JVM: " + processName);
+
         System.out.println("This is before");
     }
 

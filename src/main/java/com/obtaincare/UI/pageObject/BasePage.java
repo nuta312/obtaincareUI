@@ -11,6 +11,6 @@ public class BasePage {
     public TableHelper tableHelper = new TableHelper();
     public JsExecutorHelper jsExecutorHelper = new JsExecutorHelper();
     public ActionsHelper actionsHelper = new ActionsHelper();
-
+    public TabHelper tabHelper = new TabHelper();
 
 }

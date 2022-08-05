@@ -6,6 +6,7 @@ com/obtaincare/UI/pageObject/AddUserObject/PageObjects.class
 com/obtaincare/UI/dataProviders/ConfigReader.class
 com/obtaincare/UI/pageObject/AddUserObject/PageObjects$USERINFO.class
 com/obtaincare/UI/helperMethods/BaseHelper.class
+com/obtaincare/UI/practice/SoftAssert.class
 com/obtaincare/UI/pageObject/AddUserObject/AddUserPage.class
 com/obtaincare/UI/helperMethods/Helper.class
 com/obtaincare/UI/utils/SauceLabsDriver.class

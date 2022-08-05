@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Add new user" time="80.889" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/vasya/.cache/selenium/chromedriver/mac64/103.0.5060.134/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vasya/IdeaProjects/obtaincarUI/target/test-classes:/Users/vasya/IdeaProjects/obtaincarUI/target/classes:/Users/vasya/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/vasya/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/vasya/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/vasya/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/vasya/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar:/Users/vasya/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/vasya/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/vasya/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.1/selenium-java-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.1/selenium-api-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.1/selenium-chrome-driver-4.1.1.jar:/Users/vasya/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/vasya/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/vasya/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.1/selenium-chromium-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.1/selenium-json-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.1/selenium-devtools-v85-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.1.1/selenium-devtools-v94-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.1.1/selenium-devtools-v95-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v96/4.1.1/selenium-devtools-v96-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.1/selenium-edge-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.1/selenium-firefox-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.1/selenium-firefox-xpi-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.1/selenium-ie-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.1/selenium-remote-driver-4.1.1.jar:/Users/vasya/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/vasya/.m2/repository/io/netty/netty-buffer/4.1.70.Final/netty-buffer-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-codec-http/4.1.70.Final/netty-codec-http-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-handler/4.1.70.Final/netty-handler-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-common/4.1.70.Final/netty-common-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.70.Final/netty-transport-classes-epoll-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.70.Final/netty-transport-classes-kqueue-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport/4.1.70.Final/netty-transport-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-resolver/4.1.70.Final/netty-resolver-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-api/1.9.1/opentelemetry-api-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-context/1.9.1/opentelemetry-context-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.9.1/opentelemetry-exporter-logging-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.9.1-alpha/opentelemetry-sdk-metrics-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.9.1-alpha/opentelemetry-sdk-logs-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.9.1/opentelemetry-sdk-common-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.1/opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.1-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.9.1/opentelemetry-sdk-trace-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.9.1-alpha/opentelemetry-api-metrics-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.9.1/opentelemetry-sdk-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.9.1-alpha/opentelemetry-semconv-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vasya/.m2/repository/net/bytebuddy/byte-buddy/1.12.2/byte-buddy-1.12.2.jar:/Users/vasya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vasya/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vasya/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vasya/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vasya/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vasya/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vasya/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.1/selenium-http-4.1.1.jar:/Users/vasya/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.1/selenium-safari-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.1/selenium-support-4.1.1.jar:/Users/vasya/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.2/webdrivermanager-5.0.2.jar:/Users/vasya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/vasya/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/vasya/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java/3.2.11/docker-java-3.2.11.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-core/3.2.11/docker-java-core-3.2.11.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-api/3.2.11/docker-java-api-3.2.11.jar:/Users/vasya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/vasya/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vasya/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/vasya/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/vasya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/vasya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/vasya/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/vasya/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/vasya/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.11/docker-java-transport-httpclient5-3.2.11.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-transport/3.2.11/docker-java-transport-3.2.11.jar:/Users/vasya/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/vasya/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/vasya/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/vasya/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/vasya/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/vasya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vasya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vasya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vasya/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/vasya/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/vasya/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vasya/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-picocontainer/7.1.0/cucumber-picocontainer-7.1.0.jar:/Users/vasya/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/vasya/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar:/Users/vasya/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar:/Users/vasya/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/Users/vasya/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/vasya/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vasya/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vasya/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vasya/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vasya/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/vasya/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/vasya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Bishkek"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="KG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/vasya/IdeaProjects/obtaincarUI/target/surefire/surefirebooter7247005312418675549.jar /Users/vasya/IdeaProjects/obtaincarUI/target/surefire 2022-08-02T13-23-56_637-jvmRun1 surefire9144933787346767253tmp surefire_07621216421468024665tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/vasya/IdeaProjects/obtaincarUI/target/test-classes:/Users/vasya/IdeaProjects/obtaincarUI/target/classes:/Users/vasya/.m2/repository/io/cucumber/cucumber-java/7.1.0/cucumber-java-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-core/7.1.0/cucumber-core-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-gherkin/7.1.0/cucumber-gherkin-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.1.0/cucumber-gherkin-messages-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/vasya/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/vasya/.m2/repository/io/cucumber/datatable/7.1.0/datatable-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-plugin/7.1.0/cucumber-plugin-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/docstring/7.1.0/docstring-7.1.0.jar:/Users/vasya/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/vasya/.m2/repository/io/cucumber/create-meta/6.0.4/create-meta-6.0.4.jar:/Users/vasya/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-junit/7.1.0/cucumber-junit-7.1.0.jar:/Users/vasya/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/vasya/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/vasya/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.1.1/selenium-java-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.1.1/selenium-api-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.1.1/selenium-chrome-driver-4.1.1.jar:/Users/vasya/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/vasya/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/vasya/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.1.1/selenium-chromium-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.1.1/selenium-json-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.1.1/selenium-devtools-v85-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.1.1/selenium-devtools-v94-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.1.1/selenium-devtools-v95-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v96/4.1.1/selenium-devtools-v96-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.1.1/selenium-edge-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.1.1/selenium-firefox-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.1.1/selenium-firefox-xpi-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.1.1/selenium-ie-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.1.1/selenium-remote-driver-4.1.1.jar:/Users/vasya/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/vasya/.m2/repository/io/netty/netty-buffer/4.1.70.Final/netty-buffer-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-codec-http/4.1.70.Final/netty-codec-http-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-codec/4.1.70.Final/netty-codec-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-handler/4.1.70.Final/netty-handler-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-common/4.1.70.Final/netty-common-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.70.Final/netty-transport-classes-epoll-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.70.Final/netty-transport-classes-kqueue-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.70.Final/netty-transport-native-unix-common-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport/4.1.70.Final/netty-transport-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-resolver/4.1.70.Final/netty-resolver-4.1.70.Final.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-api/1.9.1/opentelemetry-api-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-context/1.9.1/opentelemetry-context-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.9.1/opentelemetry-exporter-logging-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.9.1-alpha/opentelemetry-sdk-metrics-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.9.1-alpha/opentelemetry-sdk-logs-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.9.1/opentelemetry-sdk-common-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.9.1/opentelemetry-sdk-extension-autoconfigure-spi-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.9.1-alpha/opentelemetry-sdk-extension-autoconfigure-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.9.1/opentelemetry-sdk-trace-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.9.1-alpha/opentelemetry-api-metrics-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.9.1/opentelemetry-sdk-1.9.1.jar:/Users/vasya/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.9.1-alpha/opentelemetry-semconv-1.9.1-alpha.jar:/Users/vasya/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vasya/.m2/repository/net/bytebuddy/byte-buddy/1.12.2/byte-buddy-1.12.2.jar:/Users/vasya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vasya/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vasya/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vasya/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vasya/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vasya/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vasya/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vasya/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.1.1/selenium-http-4.1.1.jar:/Users/vasya/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.1.1/selenium-safari-driver-4.1.1.jar:/Users/vasya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.1.1/selenium-support-4.1.1.jar:/Users/vasya/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.2/webdrivermanager-5.0.2.jar:/Users/vasya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/vasya/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/vasya/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java/3.2.11/docker-java-3.2.11.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-core/3.2.11/docker-java-core-3.2.11.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-api/3.2.11/docker-java-api-3.2.11.jar:/Users/vasya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/vasya/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/vasya/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/vasya/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/vasya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/vasya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/vasya/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/vasya/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/vasya/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.11/docker-java-transport-httpclient5-3.2.11.jar:/Users/vasya/.m2/repository/com/github/docker-java/docker-java-transport/3.2.11/docker-java-transport-3.2.11.jar:/Users/vasya/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/vasya/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/vasya/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/vasya/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/vasya/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/Users/vasya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vasya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vasya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vasya/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/Users/vasya/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/Users/vasya/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vasya/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/vasya/.m2/repository/io/cucumber/cucumber-picocontainer/7.1.0/cucumber-picocontainer-7.1.0.jar:/Users/vasya/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/vasya/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar:/Users/vasya/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar:/Users/vasya/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:/Users/vasya/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/vasya/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vasya/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vasya/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vasya/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vasya/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/vasya/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/vasya/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vasya"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/vasya/IdeaProjects/obtaincarUI"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/vasya/IdeaProjects/obtaincarUI/target/surefire/surefirebooter7247005312418675549.jar"/>
+    <property name="sun.boot.class.path" value="/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/resources.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/rt.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/sunrsasign.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/jsse.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/jce.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/charsets.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/jfr.jar:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_332-b08"/>
+    <property name="user.name" value="vasya"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/vasya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wv/vp9vn6211lj5200tnf32ybsm0000gn/T/"/>
+    <property name="java.version" value="1.8.0_332"/>
+    <property name="user.dir" value="/Users/vasya/IdeaProjects/obtaincarUI"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/vasya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.332-b08"/>
+    <property name="java.ext.dirs" value="/Users/vasya/Library/Java/Extensions:/Users/vasya/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Add new user" classname="Add new user" time="80.889">
+    <error message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;name&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='name']' (tried for 10 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Aidar', ip: 'fe80:0:0:0:1c22:9c80:4905:a123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0499b4122e4d6c040c3b8b27b3451e8, findElement {using=xpath, value=//input[@name='name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/wv/vp9vn6211lj...}, goog:chromeOptions: {debuggerAddress: localhost:58851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58851/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0499b4122e4d6c040c3b8b27b3451e8
+</error>
+    <system-out><![CDATA[????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/a442d270-acf4-49d4-bd73-f25832460bc3 ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????
+@Smoke
+Scenario: Add new user                                          # src/test/resources/features/AddNewUser.feature:10
+Started in thread: 13, in JVM: 20602@Aidar
+This is before
+[DEBUG] 2022-08-02 13:24:07.930 [pool-1-thread-1] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-08-02 13:24:07.967 [pool-1-thread-1] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-08-02 13:24:07.968 [pool-1-thread-1] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-08-02 13:24:07.984 [pool-1-thread-1] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@45412d5b
+[DEBUG] 2022-08-02 13:24:08.077 [pool-1-thread-1] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-08-02 13:24:08.078 [pool-1-thread-1] PlatformDependent0 - Java version: 8
+[DEBUG] 2022-08-02 13:24:08.081 [pool-1-thread-1] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-08-02 13:24:08.082 [pool-1-thread-1] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-08-02 13:24:08.083 [pool-1-thread-1] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-08-02 13:24:08.084 [pool-1-thread-1] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2022-08-02 13:24:08.087 [pool-1-thread-1] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-08-02 13:24:08.087 [pool-1-thread-1] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2022-08-02 13:24:08.087 [pool-1-thread-1] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2022-08-02 13:24:08.087 [pool-1-thread-1] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-08-02 13:24:08.088 [pool-1-thread-1] PlatformDependent - -Dio.netty.tmpdir: /var/folders/wv/vp9vn6211lj5200tnf32ybsm0000gn/T (java.io.tmpdir)
+[DEBUG] 2022-08-02 13:24:08.088 [pool-1-thread-1] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-08-02 13:24:08.088 [pool-1-thread-1] PlatformDependent - Platform: MacOS
+[DEBUG] 2022-08-02 13:24:08.091 [pool-1-thread-1] PlatformDependent - -Dio.netty.maxDirectMemory: 954728448 bytes
+[DEBUG] 2022-08-02 13:24:08.091 [pool-1-thread-1] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-08-02 13:24:08.096 [pool-1-thread-1] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-08-02 13:24:08.096 [pool-1-thread-1] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-08-02 13:24:08.122 [pool-1-thread-1] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-08-02 13:24:08.259 [pool-1-thread-1] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-08-02 13:24:08.259 [pool-1-thread-1] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-08-02 13:24:08.338 [pool-1-thread-1] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2022-08-02 13:24:08.338 [pool-1-thread-1] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2022-08-02 13:24:08.498 [pool-1-thread-1] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-08-02 13:24:08.535 [pool-1-thread-1] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-08-02 13:24:08.535 [pool-1-thread-1] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2022-08-02 13:24:08.677 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-08-02 13:24:08.677 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-08-02 13:24:08.678 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-08-02 13:24:08.678 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2022-08-02 13:24:08.679 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2022-08-02 13:24:08.679 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-08-02 13:24:08.679 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-08-02 13:24:08.679 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-08-02 13:24:08.679 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-08-02 13:24:08.680 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-08-02 13:24:08.680 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2022-08-02 13:24:08.680 [pool-1-thread-1] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-08-02 13:24:08.725 [pool-1-thread-1] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-08-02 13:24:08.726 [pool-1-thread-1] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-08-02 13:24:08.726 [pool-1-thread-1] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-08-02 13:24:09.906 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 20602 (auto-detected)
+[DEBUG] 2022-08-02 13:24:09.913 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-08-02 13:24:09.913 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-08-02 13:24:09.922 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+[DEBUG] 2022-08-02 13:24:09.923 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+[DEBUG] 2022-08-02 13:24:09.927 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: e0:ac:cb:ff:fe:74:9a:f0 (auto-detected)
+[DEBUG] 2022-08-02 13:24:10.121 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-08-02 13:24:10.122 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-08-02 13:24:10.123 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@308ae84e
+[DEBUG] 2022-08-02 13:24:10.201 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-08-02 13:24:10.202 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2022-08-02 13:24:10.202 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2022-08-02 13:24:10.202 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-08-02 13:24:10.202 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2022-08-02 13:24:14.140 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-08-02 13:24:14.921 [pool-1-thread-1] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xeee40b402decb316
+  Given on web talent                                           # UI.stepDefs.AddUserSteps.AddUserSteps.onWebTalent()
+[INFO ] 2022-08-02 13:24:19.592 [pool-1-thread-1] Helper - Write aidar3107 this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='login']] element
+[INFO ] 2022-08-02 13:24:19.609 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='login']]
+[INFO ] 2022-08-02 13:24:20.065 [pool-1-thread-1] Helper - Write Aidar548889 this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='password']] element
+[INFO ] 2022-08-02 13:24:20.076 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='password']]
+[INFO ] 2022-08-02 13:24:20.281 [pool-1-thread-1] Helper - Clicked element [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='submit']]
+[INFO ] 2022-08-02 13:24:20.294 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='submit']]
+[INFO ] 2022-08-02 13:24:20.338 [pool-1-thread-1] Helper - Waiting to element to be clickable[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='submit']]
+  Given login with following credentials as admin:              # UI.stepDefs.AddUserSteps.LoginAdminSteps.login_with_following_credentials_as_admin(io.cucumber.datatable.DataTable)
+    | aidar3107 | Aidar548889 |
+[INFO ] 2022-08-02 13:24:23.598 [pool-1-thread-1] Helper - Clicked element [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //a[@href='https://aidar.talentlms.com/dashboard']]
+[INFO ] 2022-08-02 13:24:23.608 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //a[@href='https://aidar.talentlms.com/dashboard']]
+[INFO ] 2022-08-02 13:24:23.667 [pool-1-thread-1] Helper - Waiting to element to be clickable[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //a[@href='https://aidar.talentlms.com/dashboard']]
+  Then admin clicked on TalentlmsHome button                    # UI.stepDefs.AddUserSteps.HomePageSteps.adminClickedOnTalentlmsHomeButton()
+[INFO ] 2022-08-02 13:24:25.707 [pool-1-thread-1] Helper - Clicked element [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: (//a[@href='https://aidar.talentlms.com/user/create'])[2]]
+[INFO ] 2022-08-02 13:24:25.724 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: (//a[@href='https://aidar.talentlms.com/user/create'])[2]]
+[INFO ] 2022-08-02 13:24:25.806 [pool-1-thread-1] Helper - Waiting to element to be clickable[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: (//a[@href='https://aidar.talentlms.com/user/create'])[2]]
+  When admin clicks on Add user button                          # UI.stepDefs.AddUserSteps.HomePageSteps.admin_clicks_on_add_user_button()
+[INFO ] 2022-08-02 13:24:28.525 [pool-1-thread-1] AddUserPage - Getting text with helper class
+[INFO ] 2022-08-02 13:24:28.553 [pool-1-thread-1] Helper - Get text from element [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //div[@class="tl-title tl-ellipsis"]]
+  Then admin should see "Home / Users / Add user" page          # UI.stepDefs.AddUserSteps.AddUserSteps.admin_should_see_page(java.lang.String)
+[INFO ] 2022-08-02 13:24:28.719 [pool-1-thread-1] Helper - Write Aidar this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='name']] element
+[INFO ] 2022-08-02 13:24:28.735 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='name']]
+[INFO ] 2022-08-02 13:24:28.905 [pool-1-thread-1] Helper - Write Askeev this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='surname']] element
+[INFO ] 2022-08-02 13:24:28.918 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='surname']]
+[INFO ] 2022-08-02 13:24:29.169 [pool-1-thread-1] Helper - Write asakeBTCETH@gmail.com this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='email']] element
+[INFO ] 2022-08-02 13:24:29.185 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='email']]
+[INFO ] 2022-08-02 13:24:29.593 [pool-1-thread-1] Helper - Delete all text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='login']] and write aidarkaBTCETHpushkathis text
+[INFO ] 2022-08-02 13:24:29.907 [pool-1-thread-1] Helper - Write Bitcoin.1000 this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='password']] element
+[INFO ] 2022-08-02 13:24:29.931 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='password']]
+[INFO ] 2022-08-02 13:24:30.148 [pool-1-thread-1] Helper - Write BTC dump this text in [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //textarea[@name='description']] element
+[INFO ] 2022-08-02 13:24:30.162 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //textarea[@name='description']]
+[INFO ] 2022-08-02 13:24:30.749 [pool-1-thread-1] Helper - Clicked element [[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='submit_personal_details']]
+[INFO ] 2022-08-02 13:24:30.759 [pool-1-thread-1] Helper - Waiting to element to be Displayed[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='submit_personal_details']]
+[INFO ] 2022-08-02 13:24:30.817 [pool-1-thread-1] Helper - Waiting to element to be clickable[[ChromeDriver: chrome on MAC (c0499b4122e4d6c040c3b8b27b3451e8)] -> xpath: //input[@name='submit_personal_details']]
+[DEBUG] 2022-08-02 13:24:42.716 [pool-1-thread-1] Helper - Sleep code 1000milliseconds
+[INFO ] 2022-08-02 13:24:54.377 [pool-1-thread-1] Helper - Write Nikita this text in Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='name']' element
+[INFO ] 2022-08-02 13:25:04.449 [pool-1-thread-1] Helper - Waiting to element to be DisplayedProxy element for: DefaultElementLocator 'By.xpath: //input[@name='name']'
+  When admin fills input fields with following new user info:   # UI.stepDefs.AddUserSteps.AddUserSteps.admin_fills_input_fields_with_following_new_user_info(io.cucumber.datatable.DataTable)
+    | Aidar  | Askeev    | asakeBTCETH@gmail.com | aidarkaBTCETHpushka  | Bitcoin.1000 | BTC dump | Learner-Type | (GMT +06:00) Almaty | English |
+    | Nikita | Cherevko  | nikitaMATIC@gmail.com | nikitosbarbodsMATIC�� | Ether.2000   | ETH PUMP | Learner-Type | (GMT +06:00) Almaty | English |
+    | Asan   | Daniyarov | asankaDOT@gmail.com   | asankaDOT            | asanDoge.100 | ETH PUMP | Learner-Type | (GMT +06:00) Almaty | English |
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='name']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.obtaincare.UI.helperMethods.Helper.waitElementToBeDisplayed(Helper.java:33)
+	at com.obtaincare.UI.helperMethods.Helper.sendKeys(Helper.java:57)
+	at com.obtaincare.UI.pageObject.AddUserObject.AddUserPage.inputFirstName(AddUserPage.java:62)
+	at com.obtaincare.UI.pageObject.AddUserObject.AddUserPage.addingUserProcess(AddUserPage.java:117)
+	at UI.stepDefs.AddUserSteps.AddUserSteps.admin_fills_input_fields_with_following_new_user_info(AddUserSteps.java:33)
+	at ���.admin fills input fields with following new user info:(file:///Users/vasya/IdeaProjects/obtaincarUI/src/test/resources/features/AddNewUser.feature:14)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'Aidar', ip: 'fe80:0:0:0:1c22:9c80:4905:a123%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0499b4122e4d6c040c3b8b27b3451e8, findElement {using=xpath, value=//input[@name='name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /var/folders/wv/vp9vn6211lj...}, goog:chromeOptions: {debuggerAddress: localhost:58851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58851/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0499b4122e4d6c040c3b8b27b3451e8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy38.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.obtaincare.UI.helperMethods.Helper.waitElementToBeDisplayed(Helper.java:33)
+	at com.obtaincare.UI.helperMethods.Helper.sendKeys(Helper.java:57)
+	at com.obtaincare.UI.pageObject.AddUserObject.AddUserPage.inputFirstName(AddUserPage.java:62)
+	at com.obtaincare.UI.pageObject.AddUserObject.AddUserPage.addingUserProcess(AddUserPage.java:117)
+	at UI.stepDefs.AddUserSteps.AddUserSteps.admin_fills_input_fields_with_following_new_user_info(AddUserSteps.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+  And admin clicks Users button on header                       # UI.stepDefs.AddUserSteps.CoursesPageSteps.admin_clicks_users_button_on_header()
+  Then admin should see information of new user                 # UI.stepDefs.AddUserSteps.UsersPageSteps.admin_should_see_information_of_new_user()
+  And admin after create users must to delete all created Users # UI.stepDefs.AddUserSteps.UsersPageSteps.adminAfterCreateUsersMustToDeleteAllCreatedUsers()
+
+    Embedding screenshot [image/png 105873 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 53857
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+??? 02, 2022 1:24:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+??? 02, 2022 1:24:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: a no-op implementation
+??? 02, 2022 1:24:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 103.
+??? 02, 2022 1:24:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

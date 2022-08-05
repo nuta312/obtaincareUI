@@ -1,12 +1,14 @@
 package UI.stepDefs.navigatePullTestSteps;
 
+import UI.BaseTest;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class NavigatePullTests {
+public class NavigatePullTests extends BaseTest {
     @Given("admin on home page")
     public void admin_on_home_page() {
+        homePage.openInNewTabAddUserButton();
     }
 
     @Given("admin should see {string} header")
@@ -15,6 +17,7 @@ public class NavigatePullTests {
 
     @Then("admin open two new tab, where appears home page with Instructor and Learner roles")
     public void admin_open_two_new_tab_where_appears_home_page_with_instructor_and_learner_roles() {
+        firstDropDownMenu.openInNewTabDropDownElements();
     }
 
     @Then("admin switch to second tab and should see {string} text on header and close this tab")

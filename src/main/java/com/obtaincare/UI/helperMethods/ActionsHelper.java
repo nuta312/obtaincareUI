@@ -10,4 +10,7 @@ public class ActionsHelper extends BaseHelper {
         actions.moveToElement(moveElement);
         jsExecutorHelper.click(clickElement);
     }
+    public void moveToElement(WebElement element) {
+        actions.moveToElement(element);
+    }
 }
