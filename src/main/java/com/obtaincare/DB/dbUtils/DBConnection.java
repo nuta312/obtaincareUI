@@ -94,7 +94,6 @@ public class DBConnection {
         for (String column : columns) {
             row.put(column, rs.getObject(column));
         }
-
         return row;
     }
 
