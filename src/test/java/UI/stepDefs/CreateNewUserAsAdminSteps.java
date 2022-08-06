@@ -3,7 +3,6 @@ package UI.stepDefs;
 import UI.BaseUITest;
 import com.obtaincare.UI.dataProviders.ConfigReader;
 import com.obtaincare.UI.utils.Driver;
-import io.cucumber.java.AfterStep;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import static org.junit.jupiter.api.Assertions.*;
@@ -12,9 +11,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CreateNewUserAsAdminSteps extends BaseUITest {
 
-    String expectedFirstName = mockDataGenerator.generateMockFirstName();
-    String expectedLastName = mockDataGenerator.generateMockLastName();
-    String expectedEmail = mockDataGenerator.generateMockEmail();
+    String expectedFirstName = mockDataGenerator.generateEmployeeFirstName();
+    String expectedLastName = mockDataGenerator.generateEmployeeLastName();
+    String expectedEmail = mockDataGenerator.generateEmployeeEmail();
     String expectedUserName = mockDataGenerator.generateMockUserName();
 
     @Given("user is on Home page")
