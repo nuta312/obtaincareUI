@@ -30,7 +30,7 @@ public class TestDB {
         }
         employeeNumbers.forEach(System.out::println);
         EmployeeBean employeeBean = new EmployeeBean();
-        DBConnection.insertBean();
+
 
 //        List<Integer> employeeNumbers1 = EmployeeBean.getAll();
     }
