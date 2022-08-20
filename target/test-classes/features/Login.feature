@@ -4,7 +4,7 @@ Feature: Login page
 
   @login
     Scenario: Verify user can login to System with valid credentials
-      When user type "Qairat" in user name input field
+      When user type "dd" in user name input field
       And user type "TpZD4&8#btHk&Wx" in password input field
       And user click on Login button
       Then user should successfully land to Home page
