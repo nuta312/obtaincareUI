@@ -17,8 +17,6 @@ public class DBConnection {
     private static Statement statement;
     private static QueryRunner queryRunner;
 
-    private static String[] properties;
-
     private DBConnection() {
     }
 

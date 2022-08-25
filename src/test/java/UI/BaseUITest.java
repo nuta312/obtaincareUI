@@ -6,7 +6,6 @@ import com.obtaincare.UI.helperMethods.Helper;
 import com.obtaincare.UI.pageObject.AddUserPage;
 import com.obtaincare.UI.pageObject.HomePage;
 import com.obtaincare.UI.pageObject.LoginPage;
-import org.junit.jupiter.api.BeforeEach;
 
 public abstract class BaseUITest {
     protected static AddUserPage addUserPage = new AddUserPage();

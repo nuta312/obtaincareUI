@@ -1,0 +1,1556 @@
+{
+  "hits": [
+    {
+      "DealerId": "44103",
+      "DetailedSalesStatus": "Active",
+      "ConditionDescription": "MarineMax Brokerage",
+      "BrokerPartyID": "44329",
+      "BrokerName": "Scott Roberton",
+      "BrokerIDS_ID": "1302",
+      "InventoryStatus": "",
+      "Condition": [
+        "Used",
+        "Brokerage"
+      ],
+      "PromotionalBoat": false,
+      "PromotionNames": [],
+      "IncludesVideo": false,
+      "VideoCount": 0,
+      "TourType": "",
+      "DealerName": "Florida - Clearwater",
+      "_geoloc": {
+        "lat": 27.9359493,
+        "lng": -82.729269
+      },
+      "ContactName": "Scott Roberton",
+      "ContactPhoneNumber": "727-638-7890",
+      "ContactEmailAddress": "Scott.Roberton@MarineMax.com",
+      "ContactDisplayForBoat": "Scott Roberton 727-638-7890",
+      "StockNumber": "189379",
+      "StockNumberSearch": "189379",
+      "BoatCategory": "Boston Whaler",
+      "SecondaryBoatClassList": [
+        "Cruisers"
+      ],
+      "PrimaryBoatClass": "Sports Fishing Boats",
+      "MasterBoatClassType": "Fishing",
+      "Make": "Boston Whaler",
+      "Model": "405 Conquest",
+      "MakeModelDelimited": "Boston Whaler,405 Conquest",
+      "ModelYear": 2022,
+      "ModelYearNumeric": 2022,
+      "Description": "<p>“Kingfisher'' is a 405 Conquest Boston Whaler, the latest addition to the Boston Whaler family. Equipped with the latest 600 hp V12 Mercury Outboards and a 15kW Diesel Generator. A spacious cockpit for entertaining and an enclosed upper cockpit which includes a helm with AC. As you make your way forward down the stairs into the salon you have a solid Mahogany dinette starboard and the galley portside with rosewood cabinetry. It boasts a forward master stateroom and mid guest cabin. A dual head that can be utilized as the day head or secured as the en-suite master head. The bow of the boat provides a removable sun shade as well as adjustable seating to enjoy the views.</p>",
+      "DetailedDescription": "<strong>Description</strong><br><p>“Kingfisher'' is a 405 Conquest Boston Whaler, the latest addition to the Boston Whaler family. Equipped with the latest 600 hp V12 Mercury Outboards and a 15kW Diesel Generator. A spacious cockpit for entertaining and an enclosed upper cockpit which includes a helm with AC. As you make your way forward down the stairs into the salon you have a solid Mahogany dinette starboard and the galley portside with rosewood cabinetry. It boasts a forward master stateroom and mid guest cabin. A dual head that can be utilized as the day head or secured as the en-suite master head. The bow of the boat provides a removable sun shade as well as adjustable seating to enjoy the views.</p>",
+      "SearchDescription": "“Kingfisher'' is a 405 Conquest Boston Whaler, the latest addition to the Boston Whaler family. Equipped with the latest 600 hp V12 Mercury Outboards and a 15kW Diesel Generator. A spacious cockpit for entertaining and an enclosed upper cockpit which includes a helm with AC. As",
+      "LifestyleList": [
+        "Fishing"
+      ],
+      "PriceNumeric": 1697900,
+      "PriceNumericSort": 1697900,
+      "PriceBucket": 5000000,
+      "MSRP Price": 1697900,
+      "Price": "1697900",
+      "PriceDescription": "$1,697,900",
+      "HullMaterial": "Fiberglass",
+      "LengthNominal": "41",
+      "LengthNumeric": 41,
+      "LengthOverall": "41",
+      "DefaultSortGUID": "",
+      "LengthModelDelimited": "41,405 Conquest",
+      "MaxDraft": 0,
+      "Beam": 13,
+      "DryWeight": 22,
+      "FuelTankCapacity": 620,
+      "Range": 0,
+      "NumPassengers": "10+ Passengers",
+      "BoatEngineMake": "Mercury",
+      "EngineType": "Inboard",
+      "FuelType": "Gas",
+      "EngineHours": 110,
+      "NumberOfEngines": 3,
+      "DetailedNavigationURL": "/boats/details/8357827/Used/Boston-Whaler-405-Conquest-Florida---Clearwater",
+      "StoreURL": "/stores/clearwater",
+      "LastModified": "2022-07-28T18:35:24.7792077-04:00",
+      "Image": "https://d2mtioty8nfglf.cloudfront.net/eyJidWNrZXQiOiJwcm9kd2ViYXNzZXRzIiwia2V5IjoiYm9hdHMvODM1NzgyNy84MzU3ODI3XzIwMjIwNzA3MDg0MjU3MjA1XzFfWExBUkdFLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTUwMCwiaGVpZ2h0IjoxMDAwLCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjQxLCJnIjoyNDUsImIiOjI0OCwiYWxwaGEiOjF9fX19",
+      "ImageCount": 30,
+      "LocationsBrandSold": [
+        "363771",
+        "418318",
+        "44095",
+        "44167",
+        "44183",
+        "44091",
+        "401746",
+        "44181",
+        "44207",
+        "44163",
+        "44227",
+        "44103",
+        "44137",
+        "44097",
+        "44127",
+        "44223",
+        "44115",
+        "418316",
+        "219342",
+        "44121",
+        "21314",
+        "21306",
+        "21313",
+        "21315",
+        "21312",
+        "44131",
+        "164172",
+        "44173",
+        "232201",
+        "49573",
+        "44133",
+        "44093",
+        "44169",
+        "339450",
+        "44089",
+        "44153",
+        "44187",
+        "44189",
+        "44217",
+        "44113",
+        "44155",
+        "426845",
+        "44185",
+        "62546",
+        "62541",
+        "62565",
+        "98483621",
+        "62595",
+        "44125",
+        "229348",
+        "44117",
+        "46018",
+        "44165",
+        "51910",
+        "44175",
+        "44177",
+        "44161",
+        "232200",
+        "44211",
+        "44111",
+        "232198",
+        "44193",
+        "44179",
+        "44203"
+      ],
+      "_tags": [
+        "MARINEMAX_SITE",
+        "BROKERAGE_SITE",
+        "44103",
+        "Active",
+        "189379",
+        "8357827",
+        "Fishing"
+      ],
+      "objectID": "44103*8357827",
+      "_snippetResult": {
+        "DealerId": {
+          "value": "44103",
+          "matchLevel": "none"
+        },
+        "DetailedSalesStatus": {
+          "value": "Active",
+          "matchLevel": "none"
+        },
+        "ConditionDescription": {
+          "value": "MarineMax Brokerage",
+          "matchLevel": "none"
+        },
+        "BrokerPartyID": {
+          "value": "44329",
+          "matchLevel": "none"
+        },
+        "BrokerName": {
+          "value": "Scott Roberton",
+          "matchLevel": "none"
+        },
+        "BrokerIDS_ID": {
+          "value": "1302",
+          "matchLevel": "none"
+        },
+        "InventoryStatus": {
+          "value": "",
+          "matchLevel": "none"
+        },
+        "Condition": [
+          {
+            "value": "Used",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Brokerage",
+            "matchLevel": "none"
+          }
+        ],
+        "VideoCount": {
+          "value": "0",
+          "matchLevel": "none"
+        },
+        "TourType": {
+          "value": "",
+          "matchLevel": "none"
+        },
+        "DealerName": {
+          "value": "Florida - Clearwater",
+          "matchLevel": "none"
+        },
+        "_geoloc": {
+          "lat": {
+            "value": "27.93594930",
+            "matchLevel": "none"
+          },
+          "lng": {
+            "value": "-82.72926900",
+            "matchLevel": "none"
+          }
+        },
+        "ContactName": {
+          "value": "Scott Roberton",
+          "matchLevel": "none"
+        },
+        "ContactPhoneNumber": {
+          "value": "727-638-7890",
+          "matchLevel": "none"
+        },
+        "ContactEmailAddress": {
+          "value": "Scott.Roberton@MarineMax.com",
+          "matchLevel": "none"
+        },
+        "ContactDisplayForBoat": {
+          "value": "Scott Roberton 727-638-7890",
+          "matchLevel": "none"
+        },
+        "StockNumber": {
+          "value": "<em>189379</em>",
+          "matchLevel": "full"
+        },
+        "StockNumberSearch": {
+          "value": "<em>189379</em>",
+          "matchLevel": "full"
+        },
+        "BoatCategory": {
+          "value": "Boston Whaler",
+          "matchLevel": "none"
+        },
+        "SecondaryBoatClassList": [
+          {
+            "value": "Cruisers",
+            "matchLevel": "none"
+          }
+        ],
+        "PrimaryBoatClass": {
+          "value": "Sports Fishing Boats",
+          "matchLevel": "none"
+        },
+        "MasterBoatClassType": {
+          "value": "Fishing",
+          "matchLevel": "none"
+        },
+        "Make": {
+          "value": "Boston Whaler",
+          "matchLevel": "none"
+        },
+        "Model": {
+          "value": "405 Conquest",
+          "matchLevel": "none"
+        },
+        "MakeModelDelimited": {
+          "value": "Boston Whaler,405 Conquest",
+          "matchLevel": "none"
+        },
+        "ModelYear": {
+          "value": "2022",
+          "matchLevel": "none"
+        },
+        "ModelYearNumeric": {
+          "value": "2022",
+          "matchLevel": "none"
+        },
+        "Description": {
+          "value": "“Kingfisher'' is a 405 Conquest Boston Whaler, the latest addition to the Boston Whaler family. Equipped with the latest …",
+          "matchLevel": "none"
+        },
+        "DetailedDescription": {
+          "value": "Description“Kingfisher'' is a 405 Conquest Boston Whaler, the latest addition to the Boston Whaler family. Equipped with the latest …",
+          "matchLevel": "none"
+        },
+        "SearchDescription": {
+          "value": "“Kingfisher'' is a 405 Conquest Boston Whaler, the latest addition to the Boston Whaler family. Equipped with the latest …",
+          "matchLevel": "none"
+        },
+        "LifestyleList": [
+          {
+            "value": "Fishing",
+            "matchLevel": "none"
+          }
+        ],
+        "PriceNumeric": {
+          "value": "1697900.0",
+          "matchLevel": "none"
+        },
+        "PriceNumericSort": {
+          "value": "1697900.0",
+          "matchLevel": "none"
+        },
+        "PriceBucket": {
+          "value": "5000000",
+          "matchLevel": "none"
+        },
+        "MSRP Price": {
+          "value": "1697900.00",
+          "matchLevel": "none"
+        },
+        "Price": {
+          "value": "1697900",
+          "matchLevel": "none"
+        },
+        "PriceDescription": {
+          "value": "$1,697,900",
+          "matchLevel": "none"
+        },
+        "HullMaterial": {
+          "value": "Fiberglass",
+          "matchLevel": "none"
+        },
+        "LengthNominal": {
+          "value": "41",
+          "matchLevel": "none"
+        },
+        "LengthNumeric": {
+          "value": "41",
+          "matchLevel": "none"
+        },
+        "LengthOverall": {
+          "value": "41",
+          "matchLevel": "none"
+        },
+        "DefaultSortGUID": {
+          "value": "",
+          "matchLevel": "none"
+        },
+        "LengthModelDelimited": {
+          "value": "41,405 Conquest",
+          "matchLevel": "none"
+        },
+        "MaxDraft": {
+          "value": "0",
+          "matchLevel": "none"
+        },
+        "Beam": {
+          "value": "13",
+          "matchLevel": "none"
+        },
+        "DryWeight": {
+          "value": "22",
+          "matchLevel": "none"
+        },
+        "FuelTankCapacity": {
+          "value": "620",
+          "matchLevel": "none"
+        },
+        "Range": {
+          "value": "0",
+          "matchLevel": "none"
+        },
+        "NumPassengers": {
+          "value": "10+ Passengers",
+          "matchLevel": "none"
+        },
+        "BoatEngineMake": {
+          "value": "Mercury",
+          "matchLevel": "none"
+        },
+        "EngineType": {
+          "value": "Inboard",
+          "matchLevel": "none"
+        },
+        "FuelType": {
+          "value": "Gas",
+          "matchLevel": "none"
+        },
+        "EngineHours": {
+          "value": "110",
+          "matchLevel": "none"
+        },
+        "NumberOfEngines": {
+          "value": "3",
+          "matchLevel": "none"
+        },
+        "DetailedNavigationURL": {
+          "value": "/boats/details/8357827/Used/Boston-Whaler-405-Conquest-Florida---Clearwater",
+          "matchLevel": "none"
+        },
+        "StoreURL": {
+          "value": "/stores/clearwater",
+          "matchLevel": "none"
+        },
+        "LastModified": {
+          "value": "2022-07-28T18:35:24.7792077-04:00",
+          "matchLevel": "none"
+        },
+        "Image": {
+          "value": "https://d2mtioty8nfglf.cloudfront.net/eyJidWNrZXQiOiJwcm9kd2ViYXNzZXRzIiwia2V5IjoiYm9hdHMvODM1NzgyNy84MzU3ODI3XzIwMjIwNzA3MDg0MjU3MjA1XzFfWExBUkdFLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTUwMCwiaGVpZ2h0IjoxMDAwLCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MjQxLCJnIjoyNDUsImIiOjI0OCwiYWxwaGEiOjF9fX19",
+          "matchLevel": "none"
+        },
+        "ImageCount": {
+          "value": "30",
+          "matchLevel": "none"
+        },
+        "LocationsBrandSold": [
+          {
+            "value": "363771",
+            "matchLevel": "none"
+          },
+          {
+            "value": "418318",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44095",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44167",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44183",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44091",
+            "matchLevel": "none"
+          },
+          {
+            "value": "401746",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44181",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44207",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44163",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44227",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44103",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44137",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44097",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44127",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44223",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44115",
+            "matchLevel": "none"
+          },
+          {
+            "value": "418316",
+            "matchLevel": "none"
+          },
+          {
+            "value": "219342",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44121",
+            "matchLevel": "none"
+          },
+          {
+            "value": "21314",
+            "matchLevel": "none"
+          },
+          {
+            "value": "21306",
+            "matchLevel": "none"
+          },
+          {
+            "value": "21313",
+            "matchLevel": "none"
+          },
+          {
+            "value": "21315",
+            "matchLevel": "none"
+          },
+          {
+            "value": "21312",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44131",
+            "matchLevel": "none"
+          },
+          {
+            "value": "164172",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44173",
+            "matchLevel": "none"
+          },
+          {
+            "value": "232201",
+            "matchLevel": "none"
+          },
+          {
+            "value": "49573",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44133",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44093",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44169",
+            "matchLevel": "none"
+          },
+          {
+            "value": "339450",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44089",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44153",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44187",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44189",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44217",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44113",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44155",
+            "matchLevel": "none"
+          },
+          {
+            "value": "426845",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44185",
+            "matchLevel": "none"
+          },
+          {
+            "value": "62546",
+            "matchLevel": "none"
+          },
+          {
+            "value": "62541",
+            "matchLevel": "none"
+          },
+          {
+            "value": "62565",
+            "matchLevel": "none"
+          },
+          {
+            "value": "98483621",
+            "matchLevel": "none"
+          },
+          {
+            "value": "62595",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44125",
+            "matchLevel": "none"
+          },
+          {
+            "value": "229348",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44117",
+            "matchLevel": "none"
+          },
+          {
+            "value": "46018",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44165",
+            "matchLevel": "none"
+          },
+          {
+            "value": "51910",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44175",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44177",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44161",
+            "matchLevel": "none"
+          },
+          {
+            "value": "232200",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44211",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44111",
+            "matchLevel": "none"
+          },
+          {
+            "value": "232198",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44193",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44179",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44203",
+            "matchLevel": "none"
+          }
+        ],
+        "_tags": [
+          {
+            "value": "MARINEMAX_SITE",
+            "matchLevel": "none"
+          },
+          {
+            "value": "BROKERAGE_SITE",
+            "matchLevel": "none"
+          },
+          {
+            "value": "44103",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Active",
+            "matchLevel": "none"
+          },
+          {
+            "value": "<em>189379</em>",
+            "matchLevel": "full"
+          },
+          {
+            "value": "8357827",
+            "matchLevel": "none"
+          },
+          {
+            "value": "Fishing",
+            "matchLevel": "none"
+          }
+        ]
+      },
+      "_highlightResult": {
+        "BrokerName": {
+          "value": "Scott Roberton",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "BrokerIDS_ID": {
+          "value": "1302",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "InventoryStatus": {
+          "value": "",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "StockNumber": {
+          "value": "<em>189379</em>",
+          "matchLevel": "full",
+          "fullyHighlighted": true,
+          "matchedWords": [
+            "189379"
+          ]
+        },
+        "PrimaryBoatClass": {
+          "value": "Sports Fishing Boats",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Make": {
+          "value": "Boston Whaler",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Model": {
+          "value": "405 Conquest",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "MakeModelDelimited": {
+          "value": "Boston Whaler,405 Conquest",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "PriceNumeric": {
+          "value": "1697900.0",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "PriceBucket": {
+          "value": "5000000",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "Price": {
+          "value": "1697900",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "LocationsBrandSold": [
+          {
+            "value": "363771",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "418318",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44095",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44167",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44183",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44091",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "401746",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44181",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44207",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44163",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44227",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44103",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44137",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44097",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44127",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44223",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44115",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "418316",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "219342",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44121",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "21314",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "21306",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "21313",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "21315",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "21312",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44131",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "164172",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44173",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "232201",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "49573",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44133",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44093",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44169",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "339450",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44089",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44153",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44187",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44189",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44217",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44113",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44155",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "426845",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44185",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "62546",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "62541",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "62565",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "98483621",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "62595",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44125",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "229348",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44117",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "46018",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44165",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "51910",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44175",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44177",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44161",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "232200",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44211",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44111",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "232198",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44193",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44179",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          {
+            "value": "44203",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        ]
+      },
+      "_rankingInfo": {
+        "nbTypos": 0,
+        "firstMatchedWord": 1000,
+        "proximityDistance": 0,
+        "userScore": 1203,
+        "geoDistance": 0,
+        "geoPrecision": 1,
+        "nbExactWords": 1,
+        "words": 1,
+        "filters": 0
+      }
+    }
+  ],
+  "nbHits": 1,
+  "page": 0,
+  "nbPages": 1,
+  "hitsPerPage": 10,
+  "facets": {
+    "Beam": {
+      "13": 1
+    },
+    "Make": {
+      "Boston Whaler": 1
+    },
+    "Model": {
+      "405 Conquest": 1
+    },
+    "Range": {
+      "0": 1
+    },
+    "DealerId": {
+      "44103": 1
+    },
+    "FuelType": {
+      "Gas": 1
+    },
+    "MaxDraft": {
+      "0": 1
+    },
+    "Condition": {
+      "Brokerage": 1,
+      "Used": 1
+    },
+    "DryWeight": {
+      "22": 1
+    },
+    "ModelYear": {
+      "2022": 1
+    },
+    "BrokerName": {
+      "Scott Roberton": 1
+    },
+    "DealerName": {
+      "Florida - Clearwater": 1
+    },
+    "EngineType": {
+      "Inboard": 1
+    },
+    "MSRP Price": {
+      "1697900.00": 1
+    },
+    "EngineHours": {
+      "110": 1
+    },
+    "PriceBucket": {
+      "5000000": 1
+    },
+    "StockNumber": {
+      "189379": 1
+    },
+    "_geoloc.lat": {
+      "27.93594930": 1
+    },
+    "_geoloc.lng": {
+      "-82.72926900": 1
+    },
+    "BrokerIDS_ID": {
+      "1302": 1
+    },
+    "LastModified": {
+      "2022-07-28T18:35:24.7792077-04:00": 1
+    },
+    "PriceNumeric": {
+      "1697900.0": 1
+    },
+    "LengthNominal": {
+      "41": 1
+    },
+    "LengthNumeric": {
+      "41": 1
+    },
+    "LifestyleList": {
+      "Fishing": 1
+    },
+    "NumberOfEngines": {
+      "3": 1
+    },
+    "PromotionalBoat": {
+      "false": 1
+    },
+    "FuelTankCapacity": {
+      "620": 1
+    },
+    "ModelYearNumeric": {
+      "2022": 1
+    },
+    "PrimaryBoatClass": {
+      "Sports Fishing Boats": 1
+    },
+    "StockNumberSearch": {
+      "189379": 1
+    },
+    "LocationsBrandSold": {
+      "21306": 1,
+      "21312": 1,
+      "21313": 1,
+      "21314": 1,
+      "21315": 1,
+      "44089": 1,
+      "44091": 1,
+      "44093": 1,
+      "44095": 1,
+      "44097": 1,
+      "44103": 1,
+      "44111": 1,
+      "44113": 1,
+      "44115": 1,
+      "44117": 1,
+      "44121": 1,
+      "44125": 1,
+      "44127": 1,
+      "44131": 1,
+      "44133": 1,
+      "44137": 1,
+      "44153": 1,
+      "44155": 1,
+      "44161": 1,
+      "44163": 1,
+      "44165": 1,
+      "44167": 1,
+      "44169": 1,
+      "44173": 1,
+      "44175": 1,
+      "44177": 1,
+      "44179": 1,
+      "44181": 1,
+      "44183": 1,
+      "44185": 1,
+      "44187": 1,
+      "44189": 1,
+      "44193": 1,
+      "44203": 1,
+      "44207": 1,
+      "44211": 1,
+      "44217": 1,
+      "44223": 1,
+      "44227": 1,
+      "46018": 1,
+      "49573": 1,
+      "51910": 1,
+      "62541": 1,
+      "62546": 1,
+      "62565": 1,
+      "62595": 1,
+      "164172": 1,
+      "219342": 1,
+      "229348": 1,
+      "232198": 1,
+      "232200": 1,
+      "232201": 1,
+      "339450": 1,
+      "363771": 1,
+      "401746": 1,
+      "418316": 1,
+      "418318": 1,
+      "426845": 1,
+      "98483621": 1
+    },
+    "MakeModelDelimited": {
+      "Boston Whaler,405 Conquest": 1
+    },
+    "DetailedSalesStatus": {
+      "Active": 1
+    },
+    "MasterBoatClassType": {
+      "Fishing": 1
+    },
+    "ConditionDescription": {
+      "MarineMax Brokerage": 1
+    },
+    "LengthModelDelimited": {
+      "41,405 Conquest": 1
+    }
+  },
+  "facets_stats": {
+    "Beam": {
+      "min": 13,
+      "max": 13,
+      "avg": 13,
+      "sum": 13
+    },
+    "Range": {
+      "min": 0,
+      "max": 0,
+      "avg": 0,
+      "sum": 0
+    },
+    "DealerId": {
+      "min": 44103,
+      "max": 44103,
+      "avg": 44103,
+      "sum": 44103
+    },
+    "MaxDraft": {
+      "min": 0,
+      "max": 0,
+      "avg": 0,
+      "sum": 0
+    },
+    "DryWeight": {
+      "min": 22,
+      "max": 22,
+      "avg": 22,
+      "sum": 22
+    },
+    "ModelYear": {
+      "min": 2022,
+      "max": 2022,
+      "avg": 2022,
+      "sum": 2022
+    },
+    "MSRP Price": {
+      "min": 1697900,
+      "max": 1697900,
+      "avg": 1697900,
+      "sum": 1697900
+    },
+    "EngineHours": {
+      "min": 110,
+      "max": 110,
+      "avg": 110,
+      "sum": 110
+    },
+    "PriceBucket": {
+      "min": 5000000,
+      "max": 5000000,
+      "avg": 5000000,
+      "sum": 5000000
+    },
+    "StockNumber": {
+      "min": 189379,
+      "max": 189379,
+      "avg": 189379,
+      "sum": 189379
+    },
+    "_geoloc.lat": {
+      "min": 27.9359,
+      "max": 27.9359,
+      "avg": 27.9359,
+      "sum": 27.9359
+    },
+    "_geoloc.lng": {
+      "min": -82.7293,
+      "max": -82.7293,
+      "avg": -82.7293,
+      "sum": -82.7293
+    },
+    "BrokerIDS_ID": {
+      "min": 1302,
+      "max": 1302,
+      "avg": 1302,
+      "sum": 1302
+    },
+    "PriceNumeric": {
+      "min": 1697900,
+      "max": 1697900,
+      "avg": 1697900,
+      "sum": 1697900
+    },
+    "LengthNominal": {
+      "min": 41,
+      "max": 41,
+      "avg": 41,
+      "sum": 41
+    },
+    "LengthNumeric": {
+      "min": 41,
+      "max": 41,
+      "avg": 41,
+      "sum": 41
+    },
+    "NumberOfEngines": {
+      "min": 3,
+      "max": 3,
+      "avg": 3,
+      "sum": 3
+    },
+    "FuelTankCapacity": {
+      "min": 620,
+      "max": 620,
+      "avg": 620,
+      "sum": 620
+    },
+    "ModelYearNumeric": {
+      "min": 2022,
+      "max": 2022,
+      "avg": 2022,
+      "sum": 2022
+    },
+    "StockNumberSearch": {
+      "min": 189379,
+      "max": 189379,
+      "avg": 189379,
+      "sum": 189379
+    },
+    "LocationsBrandSold": {
+      "min": 21306,
+      "max": 98483621,
+      "avg": 1631060,
+      "sum": 104387877
+    }
+  },
+  "exhaustiveFacetsCount": true,
+  "exhaustiveNbHits": true,
+  "exhaustiveTypo": true,
+  "query": "189379",
+  "params": "analytics=false&attributesToRetrieve=%5B%22*%22%5D&attributesToSnippet=%5B%22*%3A20%22%5D&enableABTest=false&explain=%5B%22*%22%5D&facets=%5B%22*%22%5D&getRankingInfo=true&highlightPostTag=%3C%2Fais-highlight-0%3E&highlightPreTag=%3Cais-highlight-0%3E&hitsPerPage=10&maxValuesPerFacet=100&page=0&query=189379&responseFields=%5B%22*%22%5D&snippetEllipsisText=%E2%80%A6&tagFilters=",
+  "index": "MarineMaxSearchInventory-ProdOnPrem",
+  "serverUsed": "d139-use-3.algolia.net",
+  "indexUsed": "MarineMaxSearchInventory-ProdOnPrem",
+  "parsedQuery": "189379",
+  "timeoutCounts": false,
+  "timeoutHits": false,
+  "explain": {
+    "match": {
+      "alternatives": [
+        {
+          "types": [
+            "original"
+          ],
+          "words": [
+            "189379"
+          ],
+          "typos": 0,
+          "offset": 0,
+          "length": 1,
+          "seqExpr": 0
+        }
+      ]
+    },
+    "params": {
+      "client": {
+        "query": "189379",
+        "analytics": false,
+        "page": 0,
+        "hitsPerPage": 10,
+        "attributesToRetrieve": [
+          "*"
+        ],
+        "attributesToSnippet": [
+          "*:20"
+        ],
+        "getRankingInfo": true,
+        "highlightPreTag": "<em>",
+        "highlightPostTag": "</em>",
+        "snippetEllipsisText": "…",
+        "tagFilters": [],
+        "facets": [
+          "*"
+        ],
+        "maxValuesPerFacet": 100,
+        "responseFields": [
+          "exhaustiveFacetValues",
+          "facets_stats",
+          "extensions",
+          "renderingContent",
+          "userData",
+          "aroundLatLng",
+          "queryAfterRemoval",
+          "exhaustiveFacetsCount",
+          "length",
+          "params",
+          "processingTimingsMS",
+          "facets",
+          "offset",
+          "hitsPerPage",
+          "automaticRadius",
+          "processingTimeMS",
+          "nbPages",
+          "page",
+          "index",
+          "nbHits",
+          "exhaustiveTypo",
+          "exhaustiveNbHits",
+          "query",
+          "hits"
+        ],
+        "enableABTest": false,
+        "explain": [
+          "match.alternatives",
+          "params.client",
+          "params.apiKey",
+          "params.abTest",
+          "params.rules",
+          "params.final"
+        ]
+      },
+      "apiKey": {},
+      "abTest": {},
+      "rules": {},
+      "final": {
+        "query": "189379",
+        "analytics": false,
+        "page": 0,
+        "hitsPerPage": 10,
+        "attributesToRetrieve": [
+          "*"
+        ],
+        "attributesToSnippet": [
+          "*:20"
+        ],
+        "getRankingInfo": true,
+        "highlightPreTag": "<em>",
+        "highlightPostTag": "</em>",
+        "snippetEllipsisText": "…",
+        "tagFilters": [],
+        "facets": [
+          "*"
+        ],
+        "maxValuesPerFacet": 100,
+        "responseFields": [
+          "exhaustiveFacetValues",
+          "facets_stats",
+          "extensions",
+          "renderingContent",
+          "userData",
+          "aroundLatLng",
+          "queryAfterRemoval",
+          "exhaustiveFacetsCount",
+          "length",
+          "params",
+          "processingTimingsMS",
+          "facets",
+          "offset",
+          "hitsPerPage",
+          "automaticRadius",
+          "processingTimeMS",
+          "nbPages",
+          "page",
+          "index",
+          "nbHits",
+          "exhaustiveTypo",
+          "exhaustiveNbHits",
+          "query",
+          "hits"
+        ],
+        "enableABTest": false,
+        "explain": [
+          "match.alternatives",
+          "params.client",
+          "params.apiKey",
+          "params.abTest",
+          "params.rules",
+          "params.final"
+        ]
+      }
+    }
+  },
+  "renderingContent": {},
+  "processingTimeMS": 1,
+  "processingTimingsMS": {
+    "afterSearch": {
+      "format": {
+        "snippeting": 1,
+        "total": 1
+      },
+      "total": 1
+    },
+    "total": 2
+  }
+}
